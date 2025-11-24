@@ -1,0 +1,120 @@
+.home {
+  background-color: #0f1419;
+  color: #ffffff;
+  padding: 0;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background-image: linear-gradient(rgba(15,20,25,0.6), rgba(15,20,25,0.6)), url('../../Assets/urbonebg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8rem 2rem;
+  text-align: center;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1em;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #cbd5e0;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.hero-btn {
+  background-color: #ffffff;
+  color: #1a1f2e;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.hero-btn:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* PROMO SECTION */
+.promo-section {
+  background: linear-gradient(135deg, #2d3748 0%, #1a1f2e 100%);
+  padding: 4rem 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.promo-content h2 {
+  font-size: 2.2rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.promo-content p {
+  font-size: 1.1rem;
+  color: #cbd5e0;
+  margin-bottom: 2rem;
+}
+
+.promo-btn {
+  background-color: #ffffff;
+  color: #1a1f2e;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.promo-btn:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-section {
+    padding: 4rem 1rem;
+    min-height: 350px;
+  }
+
+  .promo-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .promo-section {
+    padding: 2rem 1rem;
+  }
+}
